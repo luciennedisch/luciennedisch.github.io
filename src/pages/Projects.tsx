@@ -50,7 +50,9 @@ export const Projects = () => (
               {pr.name}
             </a>
           ) : (
-            <span className="text-xl font-semibold text-gray-800">{pr.name}</span>
+            <span className="text-xl font-semibold text-gray-800">
+              {pr.name}
+            </span>
           )}
 
           <p className="mt-2 text-gray-700">{pr.description}</p>

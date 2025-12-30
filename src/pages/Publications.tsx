@@ -45,10 +45,17 @@ export const Publications = () => (
         const isLocal = !!p.file;
 
         return (
-          <li key={i} className="flex items-center justify-between border-b pb-3">
+          <li
+            key={i}
+            className="flex items-center justify-between border-b pb-3"
+          >
             <div className="flex flex-col">
-              <span className="text-xl font-medium text-gray-800">{p.title}</span>
-              <span className="text-sm text-gray-600">{p.journal} — {p.year}</span>
+              <span className="text-xl font-medium text-gray-800">
+                {p.title}
+              </span>
+              <span className="text-sm text-gray-600">
+                {p.journal} — {p.year}
+              </span>
             </div>
 
             {href && (
