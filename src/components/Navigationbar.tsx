@@ -21,7 +21,7 @@ export const Navigationbar = () => {
       <div className="flex justify-between items-center">
         <NavLink
           to="/"
-          className="font-bold text-lg text-gray-900 dark:text-white"
+          className="font-semibold text-lg text-gray-900 dark:text-white"
         >
           Lucienne N.Y. Disch
         </NavLink>
@@ -35,21 +35,21 @@ export const Navigationbar = () => {
         </button>
 
         <div className="hidden md:flex space-x-2">
-          <NavLink to="/publications" className={navItemClass}>
+          {/* <NavLink to="/publications" className={navItemClass}>
             Publications
           </NavLink>
           <NavLink to="/projects" className={navItemClass}>
             Projects
-          </NavLink>
+          </NavLink> */}
           <NavLink to="/research" className={navItemClass}>
             Research
           </NavLink>
           <NavLink to="/teaching" className={navItemClass}>
             Teaching
           </NavLink>
-          <NavLink to="/talks" className={navItemClass}>
+          {/* <NavLink to="/talks" className={navItemClass}>
             Talks
-          </NavLink>
+          </NavLink> */}
           <NavLink to="/repositories" className={navItemClass}>
             Repositories
           </NavLink>
@@ -61,7 +61,7 @@ export const Navigationbar = () => {
 
       {open && (
         <div className="md:hidden mt-4 flex flex-col space-y-2">
-          <NavLink
+          {/* <NavLink
             to="/publications"
             onClick={() => setOpen(false)}
             className={navItemClass}
@@ -74,7 +74,7 @@ export const Navigationbar = () => {
             className={navItemClass}
           >
             Projects
-          </NavLink>
+          </NavLink> */}
           <NavLink
             to="/research"
             onClick={() => setOpen(false)}
@@ -89,13 +89,13 @@ export const Navigationbar = () => {
           >
             Teaching
           </NavLink>
-          <NavLink
+          {/* <NavLink
             to="/talks"
             onClick={() => setOpen(false)}
             className={navItemClass}
           >
             Talks
-          </NavLink>
+          </NavLink> */}
           <NavLink
             to="/repositories"
             onClick={() => setOpen(false)}
