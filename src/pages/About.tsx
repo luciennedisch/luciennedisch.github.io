@@ -23,12 +23,10 @@ export const About = () => (
             Lucienne N.Y. Disch
           </h1>
           <p className="text-lg text-gray-700 mt-4 md:mt-12">
-            I am an Economist with Research Interests in Labor Economics. I currently work as a Postdoctoral Researcher at the Stone Center, University of Chicago
+            I am an Economist with Research Interests in Applied Microeconomics, Labor Economics, Applied Econometrics, Child Development, and Education Economics. 
           </p>
           <p className="mt-4 md:mt-12 text-gray-600 max-w-prose mx-auto md:mx-0">
-            I am working on how family, school, and neighborhood factors shape
-            child development, including the effects of family disruption and
-            residential relocation on children’s test scores.
+            I currently work as a Postdoctoral Researcher at the Stone Center of the University of Chicago.
           </p>
           <p className="mt-4 md:mt-12 text-gray-600 max-w-prose mx-auto md:mx-0">
             I received my PhD in Economics from the University of Pennsylvania
