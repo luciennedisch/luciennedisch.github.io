@@ -5,14 +5,10 @@ import { FiMenu, FiX } from "react-icons/fi";
 
 export const Navigationbar = () => {
   const [open, setOpen] = useState(false);
-
   const baseClass = "px-3 py-2 rounded-md font-semibold transition-colors";
-
   const activeClass = "bg-sky-200 text-sky-900";
-
   const inactiveClass =
     "text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800";
-
   const navItemClass: NavLinkProps["className"] = ({ isActive }) =>
     `${baseClass} ${isActive ? activeClass : inactiveClass}`;
 
@@ -25,7 +21,6 @@ export const Navigationbar = () => {
         >
           About
         </NavLink>
-
         <button
           className="md:hidden text-gray-700 dark:text-gray-200 text-2xl"
           onClick={() => setOpen(!open)}
@@ -33,48 +28,17 @@ export const Navigationbar = () => {
         >
           {open ? <FiX /> : <FiMenu />}
         </button>
-
         <div className="hidden md:flex space-x-2">
-          {/* <NavLink to="/publications" className={navItemClass}>
-            Publications
-          </NavLink>
-          <NavLink to="/projects" className={navItemClass}>
-            Projects
-          </NavLink> */}
           <NavLink to="/research" className={navItemClass}>
             Research
           </NavLink>
           <NavLink to="/teaching" className={navItemClass}>
             Teaching
           </NavLink>
-          {/* <NavLink to="/talks" className={navItemClass}>
-            Talks
-          </NavLink> */}
-          <NavLink to="/repositories" className={navItemClass}>
-            Repositories
-          </NavLink>
-          <NavLink to="/contact" className={navItemClass}>
-            Contact
-          </NavLink>
         </div>
       </div>
-
       {open && (
         <div className="md:hidden mt-4 flex flex-col space-y-2">
-          {/* <NavLink
-            to="/publications"
-            onClick={() => setOpen(false)}
-            className={navItemClass}
-          >
-            Publications
-          </NavLink>
-          <NavLink
-            to="/projects"
-            onClick={() => setOpen(false)}
-            className={navItemClass}
-          >
-            Projects
-          </NavLink> */}
           <NavLink
             to="/research"
             onClick={() => setOpen(false)}
@@ -88,27 +52,6 @@ export const Navigationbar = () => {
             className={navItemClass}
           >
             Teaching
-          </NavLink>
-          {/* <NavLink
-            to="/talks"
-            onClick={() => setOpen(false)}
-            className={navItemClass}
-          >
-            Talks
-          </NavLink> */}
-          <NavLink
-            to="/repositories"
-            onClick={() => setOpen(false)}
-            className={navItemClass}
-          >
-            Repositories
-          </NavLink>
-          <NavLink
-            to="/contact"
-            onClick={() => setOpen(false)}
-            className={navItemClass}
-          >
-            Contact
           </NavLink>
         </div>
       )}
