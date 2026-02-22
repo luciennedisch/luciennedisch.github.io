@@ -14,10 +14,10 @@ export const Contact = () => {
 
       <div className="mt-6 md:mt-16 flex flex-col items-center gap-6">
         <a
-          href="mailto:disch@uchicago.com"
+          href="mailto:disch@uchicago.edu"
           className="text-lg text-gray-900 hover:underline transition-colors duration-200"
         >
-          disch@uchicago.com
+          disch@uchicago.edu
         </a>
 
         <div className="flex gap-6 text-2xl text-gray-700">
