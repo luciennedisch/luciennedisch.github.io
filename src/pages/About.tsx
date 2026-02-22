@@ -22,7 +22,7 @@ export const About = () => (
             Grüezi! I am an Economist with Research Interests in Applied Microeconomics, Labor Economics, Applied Econometrics, Child Development, and Education Economics.
           </p>
           <p className="mt-4 md:mt-12 text-lg text-gray-600 max-w-prose mx-auto md:mx-0">
-            I currently work as a Postdoctoral Researcher at the Stone Center of the University of Chicago.
+            I currently work as a Postdoctoral Researcher at the Stone Center at the University of Chicago.
           </p>
           <p className="mt-4 md:mt-12 text-lg text-gray-600 max-w-prose mx-auto md:mx-0">
             I received my PhD in Economics from the University of Pennsylvania
