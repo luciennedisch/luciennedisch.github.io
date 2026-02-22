@@ -46,7 +46,7 @@ export const Teaching = () => {
         <ul className="space-y-3 border-l border-gray-200 pl-6">
           <li>
             <p className="text-gray-900 font-medium">
-              Chair for Organization and Management
+              Organization and Management
             </p>
             <p className="text-sm text-gray-600">
               Teaching Assistant · Prof. David Seidl
