@@ -23,7 +23,7 @@ export const Navigationbar = () => {
           to="/"
           className="font-semibold text-lg text-gray-900 dark:text-white"
         >
-          Lucienne N.Y. Disch
+          About
         </NavLink>
 
         <button
