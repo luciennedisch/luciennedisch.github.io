@@ -35,10 +35,10 @@ export const About = () => (
           <p className="mt-6 md:mt-16 text-gray-600">
             Contact:{" "}
             <a
-              href="mailto:disch@uchicago.com"
+              href="mailto:disch@uchicago.edu"
               className="inline text-lg text-gray-900 hover:underline transition-colors duration-200"
             >
-              disch@uchicago.com
+              disch@uchicago.edu
             </a>
           </p>
 
