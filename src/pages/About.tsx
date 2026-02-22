@@ -13,23 +13,22 @@ export const About = () => (
           className="w-full max-w-[240px] max-h-[420px] object-cover rounded-2xl shadow-xl"
         />
       </div>
-
       <div className="md:w-2/3 flex flex-col justify-between items-center md:items-start text-center md:text-left">
         <div className="flex flex-col justify-between h-full items-center md:items-start">
           <h1 className="text-3xl font-semibold tracking-tight text-gray-900">
             Lucienne N.Y. Disch
           </h1>
           <p className="text-lg text-gray-700 mt-4 md:mt-12">
-            I am an Economist with Research Interests in Applied Microeconomics, Labor Economics, Applied Econometrics, Child Development, and Education Economics. 
+            Grüezi! I am an Economist with Research Interests in Applied Microeconomics, Labor Economics, Applied Econometrics, Child Development, and Education Economics.
           </p>
-          <p className="mt-4 md:mt-12 text-gray-600 max-w-prose mx-auto md:mx-0">
+          <p className="mt-4 md:mt-12 text-lg text-gray-600 max-w-prose mx-auto md:mx-0">
             I currently work as a Postdoctoral Researcher at the Stone Center of the University of Chicago.
           </p>
-          <p className="mt-4 md:mt-12 text-gray-600 max-w-prose mx-auto md:mx-0">
+          <p className="mt-4 md:mt-12 text-lg text-gray-600 max-w-prose mx-auto md:mx-0">
             I received my PhD in Economics from the University of Pennsylvania
             in May 2025.
           </p>
-          <p className="mt-6 md:mt-16 text-gray-600">
+          <p className="mt-6 md:mt-16 text-lg text-gray-600">
             Contact:{" "}
             <a
               href="mailto:disch@uchicago.edu"
@@ -39,7 +38,6 @@ export const About = () => (
             </a>
           </p>
         </div>
-
         <div className="mt-10 md:mt-20 flex justify-center md:justify-start gap-6 text-2xl text-gray-700">
           <a
             href="https://github.com/luciennedisch"
@@ -75,7 +73,6 @@ export const About = () => (
           </a>
         </div>
       </div>
-
       <div className="md:w-1/3 flex justify-center md:justify-end relative h-full md:block hidden">
         <img
           src={portraitImg}
