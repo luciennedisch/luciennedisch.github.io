@@ -1,7 +1,4 @@
-import resumeUrl from "../assets/resume/disch_cv.pdf";
 import portraitImg from "../assets/images/disch.jpg";
-import avatarImg from "../assets/images/disch_avatar.png";
-
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { SiOrcid } from "react-icons/si";
@@ -41,26 +38,6 @@ export const About = () => (
               disch@uchicago.edu
             </a>
           </p>
-
-          <div className="mt-6 md:hidden flex justify-center">
-            <a
-              href={resumeUrl}
-              download
-              className="relative flex items-center bg-gray-50 border border-gray-300 rounded-full shadow-lg hover:bg-gray-100 hover:shadow-xl transition px-3 py-0.5"
-            >
-              <div className="w-14 h-14 rounded-full overflow-hidden flex-shrink-0 border border-gray-300 shadow">
-                <img
-                  src={avatarImg}
-                  alt="Download CV"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-
-              <span className="ml-4 text-gray-700 font-medium text-base">
-                Download CV
-              </span>
-            </a>
-          </div>
         </div>
 
         <div className="mt-10 md:mt-20 flex justify-center md:justify-start gap-6 text-2xl text-gray-700">
@@ -105,13 +82,6 @@ export const About = () => (
           alt="portrait"
           className="w-full max-h-[520px] object-cover rounded-2xl shadow-xl"
         />
-        <a
-          href={resumeUrl}
-          download
-          className="absolute -bottom-5 -left-5 px-5 py-2 text-sm font-medium text-gray-700 bg-gray-50 border border-gray-600 rounded-full shadow-lg transition hover:bg-gray-100 hover:shadow-xl hover:-translate-y-0.5"
-        >
-          Download CV
-        </a>
       </div>
     </div>
   </section>
