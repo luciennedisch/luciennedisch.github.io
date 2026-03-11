@@ -19,7 +19,7 @@ export const Navigationbar = () => {
           to="/"
           className="font-semibold text-lg text-gray-900 dark:text-white"
         >
-          About
+          about
         </NavLink>
         <button
           className="md:hidden text-gray-700 dark:text-gray-200 text-2xl"
@@ -30,10 +30,10 @@ export const Navigationbar = () => {
         </button>
         <div className="hidden md:flex space-x-2">
           <NavLink to="/research" className={navItemClass}>
-            Research
+            research
           </NavLink>
           <NavLink to="/teaching" className={navItemClass}>
-            Teaching
+            teaching
           </NavLink>
         </div>
       </div>
