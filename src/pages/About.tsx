@@ -26,7 +26,7 @@ export const About = () => (
           </p>
           <p className="mt-4 md:mt-12 text-lg text-gray-600 max-w-prose mx-auto md:mx-0">
             I received my PhD in Economics from the University of Pennsylvania
-            in May 2025.
+            in 2025.
           </p>
           <p className="mt-6 md:mt-16 text-lg text-gray-600">
             Contact:{" "}
