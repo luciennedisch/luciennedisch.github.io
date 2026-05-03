@@ -1,7 +1,6 @@
 import portraitImg from "../assets/images/disch.jpg";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
-import { SiOrcid } from "react-icons/si";
 
 export const About = () => (
   <section className="px-6 py-12">
@@ -54,14 +53,6 @@ export const About = () => (
             className="hover:text-blue-700 transition-colors"
           >
             <FaLinkedin />
-          </a>
-          <a
-            href="https://orcid.org/0000-0000-0000-0000"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-green-600 transition-colors"
-          >
-            <SiOrcid />
           </a>
           <a
             href="https://x.com/luciennedisch"
