@@ -7,7 +7,7 @@ export const Research = () => {
 
       <ul className="space-y-8">
         <li className="border-l border-gray-200 pl-6">
-          <p className="text-gray-900 font-medium mb-2">
+          <p className="text-gray-900 font-medium">
             A Distributional Value-Added Framework with Latent Heterogeneity
           </p>
           <p className="text-sm text-gray-700 leading-relaxed">
@@ -22,7 +22,7 @@ export const Research = () => {
         </li>
 
         <li className="border-l border-gray-200 pl-6">
-          <p className="text-gray-900 font-medium mb-2">
+          <p className="text-gray-900 font-medium">
             What Makes a Good Manager? Evidence from Teachers and Principals
           </p>
           <p className="text-sm text-gray-700 leading-relaxed">
@@ -39,7 +39,7 @@ export const Research = () => {
           <p className="text-gray-900 font-medium">
             Universities of Applied Sciences and Intergenerational Mobility
           </p>
-          <p className="text-sm text-gray-600 mb-2">
+          <p className="text-sm text-gray-600 mb-1">
             joint with Melanie Häner-Müller and Christoph A. Schaltegger
           </p>
           <p className="text-sm text-gray-700 leading-relaxed">
@@ -55,7 +55,7 @@ export const Research = () => {
         </li>
 
         <li className="border-l border-gray-200 pl-6">
-          <p className="text-gray-900 font-medium mb-2">
+          <p className="text-gray-900 font-medium">
             People- or Place-Based Policies to Tackle Disadvantage? Evidence
             from Matched Family-School-Neighborhood Data
           </p>
@@ -69,7 +69,7 @@ export const Research = () => {
         </li>
 
         <li className="border-l border-gray-200 pl-6">
-          <p className="text-gray-900 font-medium mb-2">
+          <p className="text-gray-900 font-medium">
             Effects of Family Disruption on Child Development: The Moderating
             Role of Residential Relocation
           </p>
