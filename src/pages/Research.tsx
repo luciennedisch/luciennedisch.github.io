@@ -22,10 +22,7 @@ export const Research = () => {
             What Makes a Good Manager? Evidence from Teachers and Principals
           </p>
           <p className="text-sm text-gray-700 leading-relaxed">
-            Using matched student–teacher–principal data, this paper estimates
-            the separate contributions of family background, teachers and principals to
-            student achievement, accounting for sorting and complementarities.
-            It asks, for example, whether worker and manager quality are
+            Using matched student–teacher–principal data, this paper investigates whether worker and manager quality are
             complementary, and how each relates to turnover and mobility between
             work places.
           </p>
