@@ -13,7 +13,7 @@ export const Research = () => {
           <p className="text-sm text-gray-700 leading-relaxed">
             This paper develops a value-added framework in which an
             organization’s effect varies across the individuals matched to it,
-            with types on both sides latent. 
+            with types on both sides latent.
           </p>
         </li>
 
@@ -33,7 +33,7 @@ export const Research = () => {
             Universities of Applied Sciences and Intergenerational Mobility
           </p>
           <p className="text-sm text-gray-600 mb-1">
-            _joint with Melanie Häner-Müller and Christoph A. Schaltegger_
+            <em>joint with Melanie Häner-Müller and Christoph A. Schaltegger</em>
           </p>
           <p className="text-sm text-gray-700 leading-relaxed">
             Exploiting the staggered rollout of Swiss universities of applied
