@@ -33,7 +33,7 @@ export const Research = () => {
             Universities of Applied Sciences and Intergenerational Mobility
           </p>
           <p className="text-sm text-gray-600 mb-1">
-            joint with Melanie Häner-Müller and Christoph A. Schaltegger
+            ---joint with Melanie Häner-Müller and Christoph A. Schaltegger
           </p>
           <p className="text-sm text-gray-700 leading-relaxed">
             Exploiting the staggered rollout of Swiss universities of applied
